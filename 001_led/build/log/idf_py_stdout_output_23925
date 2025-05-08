@@ -1,0 +1,168 @@
+ the binary image header(2048k). Using the size in the bESP-ROM:esp32p4-eco2-20240710
+Build:Jul 10 2024
+rst:0x17 (CHIP_USB_UART_RESET),boot:0x31b (SPI_FAST_FLASH_BOOT)
+Core0 Saved PC:0x4fc1c312
+Core1 Saved PC:0x4fc012ca
+SPI mode:DIO, clock div:1
+load:0x4ff33ce0,len:0x162c
+load:0x4ff2abd0,len:0xd6c
+load:0x4ff2cbd0,len:0x3308
+entry 0x4ff2abda
+[0;32mI (27) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (28) boot: compile time May  8 2025 09:20:51[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v1.0[0m
+[0;32mI (31) boot: efuse block revision: v0.3[0m
+[0;32mI (34) boot.esp32p4: SPI Speed      : 80MHz[0m
+[0;32mI (38) boot.esp32p4: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32p4: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (50) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (65) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (72) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=40020020 size=0a298h ( 41624) map[0m
+[0;32mI (96) esp_image: segment 1: paddr=0001a2c0 vaddr=30100000 size=0000ch (    12) load[0m
+[0;32mI (97) esp_image: segment 2: paddr=0001a2d4 vaddr=3010000c size=00038h (    56) load[0m
+[0;32mI (105) esp_image: segment 3: paddr=0001a314 vaddr=4ff00000 size=05d04h ( 23812) load[0m
+[0;32mI (116) esp_image: segment 4: paddr=00020020 vaddr=40000020 size=19e50h (106064) map[0m
+[0;32mI (134) esp_image: segment 5: paddr=00039e78 vaddr=4ff05d04 size=08488h ( 33928) load[0m
+[0;32mI (142) esp_image: segment 6: paddr=00042308 vaddr=4ff0e200 size=01d34h (  7476) load[0m
+[0;32mI (147) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (148) boot: Disabling RNG early entropy source...[0m
+[0;32mI (160) cpu_start: Multicore app[0m
+[0;32mI (802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (1302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (1802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (2302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (2802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (3302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (3802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (4302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (4802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (5302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (5802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (6302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (6802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (7302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (7802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (8302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (8802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (9302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (9802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (10302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (10802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (11302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (11802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (12302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (12802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (13302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (13802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (14302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (14802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (15302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (15802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (16302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (16802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (17302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (17802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (18302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (18802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (19302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (19802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (20302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (20802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (21302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (21802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (22302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (22802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (23302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (23802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (24302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (24802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (25302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (25802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (26302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (26802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (27302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (27802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (28302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (28802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (29302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (29802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (30302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (30802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (31302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (31802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (32302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (32802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (33302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (33802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (34302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (34802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (35302) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (35802) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (1297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (1797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (2297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (2797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (3297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (3797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (4297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (4797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (5297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (5797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (6297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (6797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (7297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (7797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (8297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (8797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (9297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (9797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (10297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (10797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (11297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (11797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (12297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (12797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (13297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (13797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (14297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (14797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (15297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (15797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (16297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (16797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (17297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (17797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (18297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (18797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (19297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (19797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (20297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (20797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (21297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (21797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (22297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (22797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (23297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (23797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (24297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (24797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (25297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (25797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (26297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (26797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (27297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (27797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (28297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (28797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (29297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (29797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (30297) LED: GPIO NUM: 51, is 1[0m
+[0;32mI (797) LED: GPIO NUM: 51, is 0[0m
+[0;32mI (1297) LED: GPIO NU
