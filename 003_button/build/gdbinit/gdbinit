@@ -1,0 +1,2 @@
+source /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/003_button/build/gdbinit/symbols
+source /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/003_button/build/gdbinit/connect
