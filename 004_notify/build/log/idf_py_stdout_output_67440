@@ -1,0 +1,5 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32p4
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/opt/homebrew/bin/cmake --regenerate-during-build -S/Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify -B/Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build

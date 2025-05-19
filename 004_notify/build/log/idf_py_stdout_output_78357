@@ -1,0 +1,66 @@
+[1/15] Performing build step for 'bootloader'
+[1/1] cd /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/bootloader/esp-idf/esptool_py && /Users/wangjiaqi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/wangjiaqi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x2000 /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/bootloader/bootloader.bin
+Bootloader binary size 0x5700 bytes. 0x900 bytes (9%) free.
+[2/15] No install step for 'bootloader'
+[3/15] Completed 'bootloader'
+[4/15] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/004_notify.c.obj
+[5/15] Building C object esp-idf/button/CMakeFiles/__idf_button.dir/btn_reg.c.obj
+[6/15] Building C object esp-idf/led/CMakeFiles/__idf_led.dir/led_init.c.obj
+/Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/components/led/led_init.c: In function 'led_task':
+/Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/components/led/led_init.c:15:10: warning: unused variable 'led_state' [-Wunused-variable]
+   15 |     bool led_state = false;
+      |          ^~~~~~~~~
+[7/15] Building C object esp-idf/button/CMakeFiles/__idf_button.dir/button.c.obj
+[8/15] Linking C static library esp-idf/button/libbutton.a
+[9/15] Linking C static library esp-idf/led/libled.a
+[10/15] Linking C static library esp-idf/main/libmain.a
+[11/15] Generating ld/sections.ld
+[12/15] Linking CXX executable 004_notify.elf
+[13/15] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32p4 image...
+Merged 2 ELF sections
+Successfully created esp32p4 image.
+Generated /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/004_notify.bin
+[14/15] cd /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/esp-idf/esptool_py && /Users/wangjiaqi/.espressif/python_env/idf5.4_py3.13_env/bin/python /Users/wangjiaqi/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/partition_table/partition-table.bin /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build/004_notify.bin
+004_notify.bin binary size 0x36de0 bytes. Smallest app partition is 0x100000 bytes. 0xc9220 bytes (79%) free.
+[14/15] cd /Users/wangjiaqi/esp/esp-idf/components/esptool_py && /opt/homebrew/bin/cmake -D IDF_PATH=/Users/wangjiaqi/esp/esp-idf -D "SERIAL_TOOL=/Users/wangjiaqi/.espressif/python_env/idf5.4_py3.13_env/bin/python;;/Users/wangjiaqi/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32p4" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/wangjiaqi/Documents/Github/esp32p4-develop-board/004_notify/build -P /Users/wangjiaqi/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32p4 -p /dev/cu.usbmodem101 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x2000 bootloader/bootloader.bin 0x10000 004_notify.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/cu.usbmodem101
+Connecting...
+Chip is ESP32-P4 (revision v1.0)
+Features: High-Performance MCU
+Crystal is 40MHz
+MAC: 30:ed:a0:e0:e5:20
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00002000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00046fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 22272 bytes to 13702...
+Writing at 0x00002000... (100 %)
+Wrote 22272 bytes (13702 compressed) at 0x00002000 in 0.4 seconds (effective 453.4 kbit/s)...
+Hash of data verified.
+Compressed 224736 bytes to 114486...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001b06e... (28 %)
+Writing at 0x00021bff... (42 %)
+Writing at 0x00028db7... (57 %)
+Writing at 0x00030917... (71 %)
+Writing at 0x00037e22... (85 %)
+Writing at 0x0003e994... (100 %)
+Wrote 224736 bytes (114486 compressed) at 0x00010000 in 1.7 seconds (effective 1029.1 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 311.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

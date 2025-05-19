@@ -1,0 +1,2 @@
+source /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/005_sd_mmc/build/bootloader/gdbinit/symbols
+source /Users/wangjiaqi/Documents/Github/esp32p4-develop-board/005_sd_mmc/build/bootloader/gdbinit/connect
