@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=LED1 NewDesignator=PWR
+Change Component Designator: OldDesignator=LED2 NewDesignator=IO11
+Change Component Designator: OldDesignator=LED3 NewDesignator=IO12
+Change Component Designator: OldDesignator=LED4 NewDesignator=WS
+Change Component Designator: OldDesignator=SW1 NewDesignator=RST
+Change Component Designator: OldDesignator=SW2 NewDesignator=BOOT
+Change Component Designator: OldDesignator=SW3 NewDesignator=IO22
+Change Component Designator: OldDesignator=SW4 NewDesignator=IO54
+Change Component Designator: OldDesignator=USB1 NewDesignator=OTG
+Change Net Name : Old Net Name=NetLED1_1 New Net Name=NetPWR_1
+Change Net Name : Old Net Name=NetLED2_1 New Net Name=NetIO11_1
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=NetIO12_1
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetOTG_4
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetOTG_10

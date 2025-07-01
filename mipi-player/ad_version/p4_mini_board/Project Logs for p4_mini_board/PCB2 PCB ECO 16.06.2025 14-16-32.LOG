@@ -1,0 +1,21 @@
+Added Component: Designator=R27(R0402)
+Added Component: Designator=R28(R0402)
+Added Component: Designator=SW4(SW-SMD_L3.9-W3.0-P4.45)
+Added Pin To Net: NetName=ESP_3V3 Pin=R27-2
+Added Pin To Net: NetName=ESP_3V3 Pin=R28-2
+Added Pin To Net: NetName=GND Pin=SW3-2
+Added Pin To Net: NetName=GND Pin=SW4-2
+Added Pin To Net: NetName=IO22_BTN1 Pin=R27-1
+Added Pin To Net: NetName=IO22_BTN1 Pin=SW3-1
+Added Pin To Net: NetName=IO22_BTN1 Pin=U2-24
+Added Net: Name=IO22_BTN1
+Added Pin To Net: NetName=IO54_BTN2 Pin=R28-1
+Added Pin To Net: NetName=IO54_BTN2 Pin=SW4-1
+Added Pin To Net: NetName=IO54_BTN2 Pin=U2-98
+Added Net: Name=IO54_BTN2
+Added Differential Pair: Name=DSI_CLK
+Added Differential Pair: Name=DSI_DATA0
+Added Differential Pair: Name=DSI_DATA1
+Added Member To Class: ClassName=Sheet2 Member=Component R27 10K
+Added Member To Class: ClassName=Sheet2 Member=Component R28 10K
+Added Member To Class: ClassName=Sheet2 Member=Component SW4 TS-1088-AR02016

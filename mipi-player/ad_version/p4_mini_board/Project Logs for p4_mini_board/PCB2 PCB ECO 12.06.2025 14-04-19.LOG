@@ -1,0 +1,17 @@
+Added Component: Designator=FPC1(FPC-SMD_6P-P0.50_DEALON_0.5K-DX-6PWB)
+Added Component: Designator=FPC2(FPC-SMD_6P-P0.50_DEALON_0.5K-DX-30PWB)
+Added Pin To Net: NetName=DSI_CLK_N Pin=U2-37
+Added Net: Name=DSI_CLK_N
+Added Pin To Net: NetName=DSI_CLK_P Pin=U2-38
+Added Net: Name=DSI_CLK_P
+Added Pin To Net: NetName=DSI_DATA0_N Pin=U2-40
+Added Net: Name=DSI_DATA0_N
+Added Pin To Net: NetName=DSI_DATA0_P Pin=U2-39
+Added Net: Name=DSI_DATA0_P
+Added Pin To Net: NetName=DSI_DATA1_N Pin=U2-36
+Added Net: Name=DSI_DATA1_N
+Added Pin To Net: NetName=DSI_DATA1_P Pin=U2-35
+Added Net: Name=DSI_DATA1_P
+Added Pin To Net: NetName=DSI_REXT Pin=U2-34
+Added Net: Name=DSI_REXT
+Added Class: Name=Sheet1

@@ -1,0 +1,12 @@
+Added Component: Designator=LED4(LED-SMD_4P-L2.0-W2.0-BR-1)
+Added Pin To Net: NetName=GND Pin=LED4-2
+Added Pin To Net: NetName=VCC_5V Pin=LED4-4
+Added Pin To Net: NetName=GND Pin=U9-17
+Added Pin To Net: NetName=IO15 Pin=U2-16
+Added Net: Name=IO15
+Added Pin To Net: NetName=IO16 Pin=U2-17
+Added Net: Name=IO16
+Added Pin To Net: NetName=IO17_WS Pin=LED4-3
+Added Pin To Net: NetName=IO17_WS Pin=U2-18
+Added Net: Name=IO17_WS
+Added Member To Class: ClassName=Sheet1 Member=Component LED4 XL-2020RGBC-WS2812B

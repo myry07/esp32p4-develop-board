@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VDDO_3 Pin=FPC2-27
+Removed Pin From Net: NetName=ESP_3V3 Pin=U6-3
+Added Component: Designator=C55(C0402)
+Added Component: Designator=C56(C0603)
+Added Component: Designator=U7(SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR)
+Added Pin To Net: NetName=GND Pin=C55-2
+Added Pin To Net: NetName=GND Pin=C56-2
+Added Pin To Net: NetName=VCC_5V Pin=U6-3
+Added Pin To Net: NetName=GND Pin=U7-1
+Added Pin To Net: NetName=VCC_5V Pin=U7-3
+Added Pin To Net: NetName=VDD_1V8 Pin=C55-1
+Added Pin To Net: NetName=VDD_1V8 Pin=C56-1
+Added Pin To Net: NetName=VDD_1V8 Pin=FPC2-27
+Added Pin To Net: NetName=VDD_1V8 Pin=U7-2
+Added Net: Name=VDD_1V8
+Added Member To Class: ClassName=Sheet1 Member=Component C55 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component C56 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component U7 XC6206-1.8V

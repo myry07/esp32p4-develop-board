@@ -1,0 +1,49 @@
+Added Component: Designator=Q1(SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR)
+Added Component: Designator=R13(R0402)
+Added Component: Designator=R14(R0402)
+Added Component: Designator=R15(R0402)
+Added Component: Designator=R16(R0402)
+Added Pin To Net: NetName=ESP_3V3 Pin=FPC2-4
+Added Pin To Net: NetName=GND Pin=FPC2-6
+Added Pin To Net: NetName=DSI_DATA0_N Pin=FPC2-7
+Added Pin To Net: NetName=DSI_DATA0_P Pin=FPC2-8
+Added Pin To Net: NetName=GND Pin=FPC2-9
+Added Pin To Net: NetName=DSI_DATA1_N Pin=FPC2-10
+Added Pin To Net: NetName=DSI_DATA1_P Pin=FPC2-11
+Added Pin To Net: NetName=GND Pin=FPC2-12
+Added Pin To Net: NetName=DSI_CLK_N Pin=FPC2-13
+Added Pin To Net: NetName=DSI_CLK_P Pin=FPC2-14
+Added Pin To Net: NetName=GND Pin=FPC2-15
+Added Pin To Net: NetName=GND Pin=FPC2-18
+Added Pin To Net: NetName=GND Pin=FPC2-21
+Added Pin To Net: NetName=GND Pin=FPC2-22
+Added Pin To Net: NetName=GND Pin=FPC2-24
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=GND Pin=R14-1
+Added Pin To Net: NetName=GND Pin=R16-1
+Added Pin To Net: NetName=IO52_LCD_RST Pin=R15-2
+Added Pin To Net: NetName=IO52_LCD_RST Pin=U2-95
+Added Net: Name=IO52_LCD_RST
+Added Pin To Net: NetName=IO53_LCD_BL Pin=Q1-1
+Added Pin To Net: NetName=IO53_LCD_BL Pin=R14-2
+Added Pin To Net: NetName=IO53_LCD_BL Pin=U2-97
+Added Net: Name=IO53_LCD_BL
+Added Pin To Net: NetName=LEDK Pin=FPC2-2
+Added Pin To Net: NetName=LEDK Pin=R13-2
+Added Net: Name=LEDK
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R13-1
+Added Net: Name=NetQ1_3
+Added Pin To Net: NetName=RST_1V8 Pin=FPC2-26
+Added Pin To Net: NetName=RST_1V8 Pin=R15-1
+Added Pin To Net: NetName=RST_1V8 Pin=R16-2
+Added Net: Name=RST_1V8
+Added Pin To Net: NetName=VDD_1V8 Pin=FPC2-27
+Added Net: Name=VDD_1V8
+Added Pin To Net: NetName=VDD_2V8 Pin=FPC2-28
+Added Net: Name=VDD_2V8
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 S8050_C20069125
+Added Member To Class: ClassName=Sheet1 Member=Component R13 10
+Added Member To Class: ClassName=Sheet1 Member=Component R14 1K
+Added Member To Class: ClassName=Sheet1 Member=Component R15 15K
+Added Member To Class: ClassName=Sheet1 Member=Component R16 18K

@@ -1,0 +1,37 @@
+Added Component: Designator=C57(C0402)
+Added Component: Designator=R29(R0402)
+Added Component: Designator=R30(R0402)
+Added Component: Designator=U9(TQFN-16_L3.0-W3.0-P0.50-BL-EP1.5)
+Added Component: Designator=U10(CONN-TH_2P-P1.25_ZX-MX1.25-2PWZ)
+Added Pin To Net: NetName=GND Pin=C57-1
+Added Pin To Net: NetName=ESP_3V3 Pin=C57-2
+Added Pin To Net: NetName=GND Pin=R29-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R30-1
+Added Pin To Net: NetName=GND Pin=U9-3
+Added Pin To Net: NetName=ESP_3V3 Pin=U9-7
+Added Pin To Net: NetName=ESP_3V3 Pin=U9-8
+Added Pin To Net: NetName=GND Pin=U9-11
+Added Pin To Net: NetName=GND Pin=U9-15
+Added Pin To Net: NetName=I2S_BCLK Pin=U9-16
+Added Net: Name=I2S_BCLK
+Added Pin To Net: NetName=I2S_DOUT Pin=U9-1
+Added Net: Name=I2S_DOUT
+Added Pin To Net: NetName=I2S_LRCK Pin=U9-14
+Added Net: Name=I2S_LRCK
+Added Pin To Net: NetName=NetR29_2 Pin=R29-2
+Added Pin To Net: NetName=NetR29_2 Pin=U9-2
+Added Net: Name=NetR29_2
+Added Pin To Net: NetName=NetR30_2 Pin=R30-2
+Added Pin To Net: NetName=NetR30_2 Pin=U9-4
+Added Net: Name=NetR30_2
+Added Pin To Net: NetName=NetU9_9 Pin=U9-9
+Added Pin To Net: NetName=NetU9_9 Pin=U10-1
+Added Net: Name=NetU9_9
+Added Pin To Net: NetName=NetU9_10 Pin=U9-10
+Added Pin To Net: NetName=NetU9_10 Pin=U10-2
+Added Net: Name=NetU9_10
+Added Member To Class: ClassName=Sheet1 Member=Component C57 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component R29 220
+Added Member To Class: ClassName=Sheet1 Member=Component R30 1M
+Added Member To Class: ClassName=Sheet1 Member=Component U9 MAX98357AETE+T
+Added Member To Class: ClassName=Sheet1 Member=Component U10 ZX-MX1.25-2PWZ

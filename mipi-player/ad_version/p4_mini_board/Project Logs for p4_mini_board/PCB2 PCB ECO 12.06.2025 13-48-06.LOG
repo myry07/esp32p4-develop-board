@@ -1,0 +1,16 @@
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=FLASH_CK Pin=U1-6
+Added Pin To Net: NetName=FLASH_CK Pin=U2-32
+Added Net: Name=FLASH_CK
+Added Pin To Net: NetName=FLASH_D Pin=U1-5
+Added Pin To Net: NetName=FLASH_D Pin=U2-33
+Added Net: Name=FLASH_D
+Added Pin To Net: NetName=FLASH_HD Pin=U1-7
+Added Pin To Net: NetName=FLASH_HD Pin=U2-31
+Added Net: Name=FLASH_HD
+Added Pin To Net: NetName=FLASH_Q Pin=U1-2
+Added Pin To Net: NetName=FLASH_Q Pin=U2-28
+Added Net: Name=FLASH_Q
+Added Pin To Net: NetName=FLASH_WP Pin=U1-3
+Added Pin To Net: NetName=FLASH_WP Pin=U2-29
+Added Net: Name=FLASH_WP

@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=IO53_LCD_BL Pin=Q2-1
+Removed Pin From Net: NetName=IO53_LCD_BL Pin=R22-2
+Added Pin To Net: NetName=USB_N Pin=U2-52
+Added Pin To Net: NetName=USB_P Pin=U2-53
+Added Pin To Net: NetName=IO26_LCD_BL Pin=Q2-1
+Added Pin To Net: NetName=IO26_LCD_BL Pin=R22-2
+Added Pin To Net: NetName=IO26_LCD_BL Pin=U2-55
+Added Net: Name=IO26_LCD_BL
+Added Pin To Net: NetName=IO27_SPI_DC Pin=*1-12
+Added Pin To Net: NetName=IO27_SPI_DC Pin=U2-56
+Added Net: Name=IO27_SPI_DC
+Added Pin To Net: NetName=IO28_SPI_CS Pin=*1-11
+Added Pin To Net: NetName=IO28_SPI_CS Pin=U2-57
+Added Net: Name=IO28_SPI_CS
+Added Pin To Net: NetName=IO29_SPI_CLK Pin=*1-10
+Added Pin To Net: NetName=IO29_SPI_CLK Pin=U2-58
+Added Net: Name=IO29_SPI_CLK
+Added Pin To Net: NetName=IO30_SPI_MOSI Pin=*1-9
+Added Pin To Net: NetName=IO30_SPI_MOSI Pin=U2-60
+Added Net: Name=IO30_SPI_MOSI
+Added Pin To Net: NetName=IO31_SPI_RST Pin=*1-8
+Added Pin To Net: NetName=IO31_SPI_RST Pin=U2-61
+Added Net: Name=IO31_SPI_RST
+Added Pin To Net: NetName=IO36_TP_RST Pin=*1-4
+Added Pin To Net: NetName=IO36_TP_RST Pin=U2-68
+Added Net: Name=IO36_TP_RST
+Added Pin To Net: NetName=IO37_TP_INT Pin=*1-3
+Added Pin To Net: NetName=IO37_TP_INT Pin=U2-69
+Added Net: Name=IO37_TP_INT

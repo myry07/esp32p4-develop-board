@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=VDDO_3 Pin=C30-2
+Removed Pin From Net: NetName=VDDO_3 Pin=U2-73
+Change Component Designator: OldDesignator=SW? NewDesignator=SW1
+Added Component: Designator=C47(C0402)
+Added Component: Designator=LED1(LED0603-BL)
+Added Component: Designator=LED2(LED0603-GR)
+Added Component: Designator=LED3(LED0603-RD)
+Added Component: Designator=R10(R0402)
+Added Component: Designator=R11(R0402)
+Added Component: Designator=R12(R0402)
+Added Component: Designator=SW2(SW-SMD_L3.9-W3.0-P4.45)
+Added Component: Designator=SW3(SW-SMD_L3.9-W3.0-P4.45)
+Added Pin To Net: NetName=GND Pin=C47-1
+Added Pin To Net: NetName=ESP_3V3 Pin=LED1-2
+Added Pin To Net: NetName=ESP_3V3 Pin=R10-2
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=ESP_3V3 Pin=R12-2
+Added Pin To Net: NetName=GND Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW2-2
+Added Pin To Net: NetName=EN Pin=C47-2
+Added Pin To Net: NetName=EN Pin=R10-1
+Added Pin To Net: NetName=EN Pin=SW1-1
+Added Pin To Net: NetName=EN Pin=U2-103
+Added Net: Name=EN
+Added Pin To Net: NetName=IO35_BOOT Pin=R12-1
+Added Pin To Net: NetName=IO35_BOOT Pin=SW2-1
+Added Pin To Net: NetName=IO35_BOOT Pin=U2-66
+Added Net: Name=IO35_BOOT
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=NetLED1_1 Pin=R11-1
+Added Net: Name=NetLED1_1
+Added Member To Class: ClassName=Sheet2 Member=Component C47 100nF
+Added Member To Class: ClassName=Sheet2 Member=Component LED1 KT-0603B
+Added Member To Class: ClassName=Sheet2 Member=Component LED2 KT-0603G
+Added Member To Class: ClassName=Sheet2 Member=Component LED3 KT-0603R
+Added Member To Class: ClassName=Sheet2 Member=Component R10 10K
+Added Member To Class: ClassName=Sheet2 Member=Component R11 470
+Added Member To Class: ClassName=Sheet2 Member=Component R12 10K
+Added Member To Class: ClassName=Sheet2 Member=Component SW2 TS-1088-AR02016
+Added Member To Class: ClassName=Sheet2 Member=Component SW3 TS-1088-AR02016

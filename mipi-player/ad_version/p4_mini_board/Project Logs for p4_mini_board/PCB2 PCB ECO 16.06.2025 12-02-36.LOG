@@ -1,0 +1,61 @@
+Removed Pin From Net: NetName=ESP_3V3 Pin=FPC2-4
+Removed Pin From Net: NetName=IO53_LCD_BL Pin=Q1-1
+Removed Pin From Net: NetName=GND Pin=Q1-2
+Removed Pin From Net: NetName=LEDK Pin=R13-2
+Removed Member From Class: ClassName=Sheet1 Member=Q1
+Change Component Comment : Designator=R14 Old Comment=1K New Comment=100K
+Change Component Comment : Designator=R13 Old Comment=10 New Comment=10K
+Added Component: Designator=B1(SOT95P280X100-5N)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/MP3302DJ-LF-Z.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Monolithic Power Systems (MPS)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MP3302DJ-LF-Z"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "946-MP3302DJLFZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MP3302DJ-LF-Z?qs=rC7bBWoQAAmgkwFvMFHCAg%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=C51(C0402)
+Added Component: Designator=C53(C0402)
+Added Component: Designator=C54(C0603)
+Added Component: Designator=D1(DIOM5126X250N)
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.taiwansemi.com/assets/uploads/datasheet/SS12%20SERIES_Q2102.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "2.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Taiwan Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SS14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "821-SS14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/SS14?qs=JV7lzlMm3yLIdi0ESVd3YQ%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=L3(L0402-SMD)
+Added Component: Designator=R25(R0402)
+Added Component: Designator=R26(R0402)
+Added Pin To Net: NetName=GND Pin=B1-2
+Added Pin To Net: NetName=LEDK Pin=B1-3
+Added Pin To Net: NetName=GND Pin=C51-2
+Added Pin To Net: NetName=GND Pin=C53-1
+Added Pin To Net: NetName=GND Pin=C54-1
+Added Pin To Net: NetName=VCC_5V Pin=C54-2
+Added Pin To Net: NetName=VCC_5V Pin=L3-2
+Added Pin To Net: NetName=IO53_LCD_BL Pin=R13-1
+Added Pin To Net: NetName=VCC_5V Pin=R25-1
+Added Pin To Net: NetName=LEDK Pin=R26-1
+Added Pin To Net: NetName=GND Pin=R26-2
+Added Pin To Net: NetName=LEDA Pin=C51-1
+Added Pin To Net: NetName=LEDA Pin=D1-1
+Added Pin To Net: NetName=LEDA Pin=FPC2-4
+Added Net: Name=LEDA
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_1 Pin=D1-2
+Added Pin To Net: NetName=NetB1_1 Pin=L3-1
+Added Net: Name=NetB1_1
+Added Pin To Net: NetName=NetB1_4 Pin=B1-4
+Added Pin To Net: NetName=NetB1_4 Pin=R13-2
+Added Net: Name=NetB1_4
+Added Pin To Net: NetName=NetB1_5 Pin=B1-5
+Added Pin To Net: NetName=NetB1_5 Pin=C53-2
+Added Pin To Net: NetName=NetB1_5 Pin=R25-2
+Added Net: Name=NetB1_5
+Added Member To Class: ClassName=Sheet1 Member=Component B1 MP3302DJ-LF-Z
+Added Member To Class: ClassName=Sheet1 Member=Component C51 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C53 1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C54 47uF
+Added Member To Class: ClassName=Sheet1 Member=Component D1 SS14
+Added Member To Class: ClassName=Sheet1 Member=Component L3 4.7uH
+Added Member To Class: ClassName=Sheet1 Member=Component R25 10
+Added Member To Class: ClassName=Sheet1 Member=Component R26 5

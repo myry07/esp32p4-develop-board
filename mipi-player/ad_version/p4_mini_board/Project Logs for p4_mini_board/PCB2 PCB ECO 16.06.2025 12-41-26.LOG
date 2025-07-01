@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=IO45_TP_RST Pin=FPC1-1
+Removed Pin From Net: NetName=IO33_I2C_SDA Pin=FPC1-2
+Removed Pin From Net: NetName=IO32_I2C_SCL Pin=FPC1-3
+Removed Pin From Net: NetName=IO21_TP_INT Pin=FPC1-4
+Removed Pin From Net: NetName=VDD_2V8 Pin=FPC1-5
+Removed Pin From Net: NetName=GND Pin=FPC1-6
+Added Pin To Net: NetName=GND Pin=FPC1-1
+Added Pin To Net: NetName=VDD_2V8 Pin=FPC1-2
+Added Pin To Net: NetName=IO21_TP_INT Pin=FPC1-3
+Added Pin To Net: NetName=IO32_I2C_SCL Pin=FPC1-4
+Added Pin To Net: NetName=IO33_I2C_SDA Pin=FPC1-5
+Added Pin To Net: NetName=IO45_TP_RST Pin=FPC1-6

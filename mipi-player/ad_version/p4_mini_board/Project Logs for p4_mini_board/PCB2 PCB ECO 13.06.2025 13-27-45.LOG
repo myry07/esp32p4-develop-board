@@ -1,0 +1,112 @@
+Removed Pin From Net: NetName=IO52_LCD_RST Pin=R15-2
+Removed Pin From Net: NetName=GND Pin=R16-1
+Change Component Comment : Designator=R15 Old Comment=15K New Comment=51K
+Change Component Comment : Designator=R16 Old Comment=18K New Comment=51K
+Added Component: Designator=C48(C0402)
+Added Component: Designator=C49(C0603)
+Added Component: Designator=C52(C0402)
+Added Component: Designator=R17(R0402)
+Added Component: Designator=R18(R0402)
+Added Component: Designator=R19(R0402)
+Added Component: Designator=R20(R0402)
+Added Component: Designator=U6(SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR)
+Added Component: Designator=U8(TF-SMD_TF-01A)
+Added Pin To Net: NetName=VDD_2V8 Pin=C48-1
+Added Pin To Net: NetName=GND Pin=C48-2
+Added Pin To Net: NetName=VDD_2V8 Pin=C49-1
+Added Pin To Net: NetName=GND Pin=C49-2
+Added Pin To Net: NetName=GND Pin=C52-1
+Added Pin To Net: NetName=ESP_3V3 Pin=C52-2
+Added Pin To Net: NetName=VDD_2V8 Pin=FPC1-5
+Added Pin To Net: NetName=GND Pin=FPC1-6
+Added Pin To Net: NetName=GND Pin=FPC1-7
+Added Pin To Net: NetName=GND Pin=FPC1-8
+Added Pin To Net: NetName=IO52_LCD_RST Pin=FPC2-26
+Added Pin To Net: NetName=VDDO_3 Pin=FPC2-27
+Added Pin To Net: NetName=GND Pin=FPC2-29
+Added Pin To Net: NetName=GND Pin=FPC2-30
+Added Pin To Net: NetName=GND Pin=FPC2-31
+Added Pin To Net: NetName=GND Pin=FPC2-32
+Added Pin To Net: NetName=ESP_3V3 Pin=R15-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R16-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R17-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R18-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R19-1
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=VDD_2V8 Pin=U6-2
+Added Pin To Net: NetName=ESP_3V3 Pin=U6-3
+Added Pin To Net: NetName=ESP_3V3 Pin=U8-4
+Added Pin To Net: NetName=GND Pin=U8-6
+Added Pin To Net: NetName=GND Pin=U8-10
+Added Pin To Net: NetName=GND Pin=U8-11
+Added Pin To Net: NetName=GND Pin=U8-12
+Added Pin To Net: NetName=GND Pin=U8-13
+Added Pin To Net: NetName=IO0 Pin=U2-104
+Added Net: Name=IO0
+Added Pin To Net: NetName=IO20 Pin=U2-22
+Added Net: Name=IO20
+Added Pin To Net: NetName=IO21_TP_INT Pin=FPC1-4
+Added Pin To Net: NetName=IO21_TP_INT Pin=U2-23
+Added Net: Name=IO21_TP_INT
+Added Pin To Net: NetName=IO22 Pin=U2-24
+Added Net: Name=IO22
+Added Pin To Net: NetName=IO23 Pin=U2-25
+Added Net: Name=IO23
+Added Pin To Net: NetName=IO32_I2C_SCL Pin=FPC1-3
+Added Pin To Net: NetName=IO32_I2C_SCL Pin=U2-63
+Added Net: Name=IO32_I2C_SCL
+Added Pin To Net: NetName=IO33_I2C_SDA Pin=FPC1-2
+Added Pin To Net: NetName=IO33_I2C_SDA Pin=U2-64
+Added Net: Name=IO33_I2C_SDA
+Added Pin To Net: NetName=IO39_SD_D0 Pin=R15-2
+Added Pin To Net: NetName=IO39_SD_D0 Pin=U2-80
+Added Pin To Net: NetName=IO39_SD_D0 Pin=U8-7
+Added Net: Name=IO39_SD_D0
+Added Pin To Net: NetName=IO40_SD_D1 Pin=R16-2
+Added Pin To Net: NetName=IO40_SD_D1 Pin=U2-81
+Added Pin To Net: NetName=IO40_SD_D1 Pin=U8-8
+Added Net: Name=IO40_SD_D1
+Added Pin To Net: NetName=IO41_SD_D2 Pin=R17-2
+Added Pin To Net: NetName=IO41_SD_D2 Pin=U2-82
+Added Pin To Net: NetName=IO41_SD_D2 Pin=U8-1
+Added Net: Name=IO41_SD_D2
+Added Pin To Net: NetName=IO42_SD_D3 Pin=R18-2
+Added Pin To Net: NetName=IO42_SD_D3 Pin=U2-83
+Added Pin To Net: NetName=IO42_SD_D3 Pin=U8-2
+Added Net: Name=IO42_SD_D3
+Added Pin To Net: NetName=IO43_SD_CLK Pin=R20-1
+Added Pin To Net: NetName=IO43_SD_CLK Pin=U2-84
+Added Net: Name=IO43_SD_CLK
+Added Pin To Net: NetName=IO44_SD_CMD Pin=R19-2
+Added Pin To Net: NetName=IO44_SD_CMD Pin=U2-86
+Added Pin To Net: NetName=IO44_SD_CMD Pin=U8-3
+Added Net: Name=IO44_SD_CMD
+Added Pin To Net: NetName=IO45_TP_RST Pin=FPC1-1
+Added Pin To Net: NetName=IO45_TP_RST Pin=U2-87
+Added Net: Name=IO45_TP_RST
+Added Pin To Net: NetName=IO46 Pin=U2-88
+Added Net: Name=IO46
+Added Pin To Net: NetName=IO47 Pin=U2-89
+Added Net: Name=IO47
+Added Pin To Net: NetName=IO48 Pin=U2-90
+Added Net: Name=IO48
+Added Pin To Net: NetName=IO49 Pin=U2-92
+Added Net: Name=IO49
+Added Pin To Net: NetName=IO50 Pin=U2-93
+Added Net: Name=IO50
+Added Pin To Net: NetName=IO51 Pin=U2-94
+Added Net: Name=IO51
+Added Pin To Net: NetName=IO54 Pin=U2-98
+Added Net: Name=IO54
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=U8-5
+Added Net: Name=NetR20_2
+Added Member To Class: ClassName=Sheet1 Member=Component C48 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component C49 10uF
+Added Member To Class: ClassName=Sheet1 Member=Component C52 100nF
+Added Member To Class: ClassName=Sheet1 Member=Component R17 51K
+Added Member To Class: ClassName=Sheet1 Member=Component R18 51K
+Added Member To Class: ClassName=Sheet1 Member=Component R19 51K
+Added Member To Class: ClassName=Sheet1 Member=Component R20 51
+Added Member To Class: ClassName=Sheet1 Member=Component U6 XC6206-2.8V
+Added Member To Class: ClassName=Sheet1 Member=Component U8 TF-01A_C91145

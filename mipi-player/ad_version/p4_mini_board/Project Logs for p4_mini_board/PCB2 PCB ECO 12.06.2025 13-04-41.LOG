@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C46
+Change Component Designator: OldDesignator=R? NewDesignator=R9
+Added Component: Designator=SW?(SW-SMD_L3.9-W3.0-P4.45)
+Added Pin To Net: NetName=FB_DCDC Pin=U2-78
+Added Pin To Net: NetName=EN_DCDC Pin=U2-79
+Added Pin To Net: NetName=GND Pin=U2-105
+Added Member To Class: ClassName=Sheet2 Member=Component SW? TS-1088-AR02016

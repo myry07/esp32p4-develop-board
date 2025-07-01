@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=IO6_I2S_DOUT Pin=U2-6
+Added Pin To Net: NetName=IO6_I2S_DOUT Pin=U9-1
+Added Net: Name=IO6_I2S_DOUT
+Added Pin To Net: NetName=IO7_I2S_BCLK Pin=U2-7
+Added Pin To Net: NetName=IO7_I2S_BCLK Pin=U9-16
+Added Net: Name=IO7_I2S_BCLK
+Added Pin To Net: NetName=IO8_I2S_LRCK Pin=U2-8
+Added Pin To Net: NetName=IO8_I2S_LRCK Pin=U9-14
+Added Net: Name=IO8_I2S_LRCK

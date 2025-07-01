@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=FPC3 NewDesignator=*1
+Added Component: Designator=R23(R0402)
+Added Component: Designator=R24(R0402)
+Added Pin To Net: NetName=IO33_I2C_SDA Pin=R23-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R23-2
+Added Pin To Net: NetName=IO32_I2C_SCL Pin=R24-1
+Added Pin To Net: NetName=ESP_3V3 Pin=R24-2
+Added Member To Class: ClassName=Sheet2 Member=Component R23 5K
+Added Member To Class: ClassName=Sheet2 Member=Component R24 5K

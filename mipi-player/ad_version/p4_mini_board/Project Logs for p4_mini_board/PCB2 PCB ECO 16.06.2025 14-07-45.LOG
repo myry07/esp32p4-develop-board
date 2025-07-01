@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=IO52_LCD_RST Pin=FPC2-26
+Added Pin To Net: NetName=DSI_REXT Pin=FPC2-26

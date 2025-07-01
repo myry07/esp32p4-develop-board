@@ -1,0 +1,8 @@
+Added Component: Designator=U1(WSON-8_L6.0-W5.0-P1.27-BL-EP)
+Added Component: Designator=U2(QFN-104_L10.0-W10.0-P0.35-TL-EP7.5)
+Added Component: Designator=U3(SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR)
+Added Component: Designator=U4(SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR)
+Added Component: Designator=U5(SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL)
+Added Component: Designator=USB1(USB-C-SMD_TYPE-C-6PIN-2MD-073)
+Added Component: Designator=X1(OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI)
+Added Class: Name=Sheet2
